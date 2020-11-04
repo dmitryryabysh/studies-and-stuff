@@ -21,4 +21,5 @@ void main(){
     fprintf (ass, "\n");
   }
   fclose(ass);
+  printf("Я ебал рэп");
 }
