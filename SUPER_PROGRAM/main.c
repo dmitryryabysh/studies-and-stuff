@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
+#include <locale.h>
 
 void main(){
+  setlocale( LC_ALL, "Russian");
   FILE *ass;
   ass=fopen("D:\\github\\SUPER_PROGRAM\\hach.txt", "w");
   int y, x;
@@ -21,5 +23,4 @@ void main(){
     fprintf (ass, "\n");
   }
   fclose(ass);
-  printf("Я ебал рэп");
 }
